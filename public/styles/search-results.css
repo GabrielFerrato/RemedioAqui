@@ -30,7 +30,7 @@ body::after{
 
 #page-search-results header a span{
     margin-right: 16px;
-    background-image: url(../public/assets/arrow-left.svg);
+    background-image: url(../assets/arrow-left.svg);
     display: flex;
     width: 20px;
     height: 24px;
@@ -50,11 +50,12 @@ main .cards{
     display: flex;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
+    
 }
 
 main .cards img{
-    width: 500px;
-    height: 500px;
+    width: 154px;
+    height: 30px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
     
@@ -78,7 +79,30 @@ main .cards h3{
 }
 
 main .cards p{
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 11px;
+    line-height: 15px;
     color: #6C6C88;
 }
+main .cards span {
+    color: #34CB79
+
+}
+main .fazerPedido button{
+    width: 22px;
+    height: 22px;
+    background-color: #2fb86e;
+    border: 0;
+    border-radius: 0 ;
+    
+    
+}
+main a strong{
+    flex: 1;
+    color: white;
+ 
+}
+li {
+    list-style-type: none;
+  }
+
+    
